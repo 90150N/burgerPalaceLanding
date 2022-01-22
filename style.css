@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -10,6 +10,8 @@
 header {
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
 }
 
 .logo {
@@ -28,10 +30,55 @@ nav {
 nav a {
     text-decoration: none;
     margin-left: 2em;
+    color: #000;
+    font-weight: 500;
 }
 
 nav i {
     margin-left: 1em;
     margin-right: 1em;
     color: darkolivegreen;
+}
+
+.banner img {
+    height: 90vh;
+    margin-top: 5%;
+    margin-right: 9vw;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    background: url(/img/abstract.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.content {
+    margin-left: 5vw;
+    margin-top: 15%;
+}
+
+.content p {
+    margin-top: 3em;
+    color: #564D4D;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.content a {
+    display: inline-block;
+    margin-top: 7em;
+    text-decoration: none;
+    margin-left: 4em;
+    background-color: #F6B400;
+    color: #fff;
+    padding: .8em 1.8em;
+    border-radius: 30px 30px 0;
+
+}
+
+.content h2 {
+    font-weight: 600;
+    font-size: xx-large;
 }
