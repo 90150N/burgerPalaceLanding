@@ -82,3 +82,40 @@ nav i {
     font-weight: 600;
     font-size: xx-large;
 }
+
+.service {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background-color: #DDE3DD;
+}
+
+.service .quality {
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 7%;
+    padding: 2%;
+    text-align: center;
+    
+}
+
+.service .delivery {
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5% 2%;
+}
+
+.service div h2 {
+    font-weight: 500;
+    padding: 1em 0;
+}
+
+.service div p {
+    font-size: small;
+}
+
+.service div i {
+    color: #F6B400;
+}
+
