@@ -12,8 +12,8 @@
 <body>
     <header>
         <div class="logo">
-            <img src="./img/logo.png" alt="Logo" width="50">
-            <h1 class="logoText">Burger</h1>
+            <img src="./img/logo.png" alt="Logo">
+            <h1 class="logoText"> <div class="yellow inline">Bur</div>ger</h1>
         </div>
             <nav>           
                 <a href="#">Home</a>
@@ -48,6 +48,112 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis accusantium tempora velit tenetur, doloremque atque sunt incidunt quas corrupti, pariatur, ducimus eum harum nam natus ratione suscipit nostrum sint eos!</p>
         </div>
     </section>
+    <section class="menu-section">
+        <h2 class="menu-header">Our Menu</h2>
+        <div class="menu">
+            <div class="card">
+                <img src="/img/SeekPng 2.png" alt="double burger">
+                <h2>Double Burger</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, nisi! Iste nisi ut, similique maxime praesentium ad dignissimos provident suscipit laborum! Ad sequi quis iste assumenda eligendi, similique ullam quo?</p>
+                <div class="price-cart">
+                    <p>Ksh 200</p>
+                    <i class="fa fa-shopping-cart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/img/SeekPng 1.png" alt="double burger">
+                <h2>Double Burger</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, nisi! Iste nisi ut, similique maxime praesentium ad dignissimos provident suscipit laborum! Ad sequi quis iste assumenda eligendi, similique ullam quo?</p>
+                <div class="price-cart">
+                    <p>Ksh 200</p>
+                    <i class="fa fa-shopping-cart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/img/SeekPng 3.png" alt="double burger">
+                <h2>Double Burger</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, nisi! Iste nisi ut, similique maxime praesentium ad dignissimos provident suscipit laborum! Ad sequi quis iste assumenda eligendi, similique ullam quo?</p>
+                <div class="price-cart">
+                    <p>Ksh 200</p>
+                    <i class="fa fa-shopping-cart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/img/SeekPng 4.png" alt="double burger">
+                <h2>Double Burger</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, nisi! Iste nisi ut, similique maxime praesentium ad dignissimos provident suscipit laborum! Ad sequi quis iste assumenda eligendi, similique ullam quo?</p>
+                <div class="price-cart">
+                    <p>Ksh 200</p>
+                    <i class="fa fa-shopping-cart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/img/SeekPng 5.png" alt="double burger">
+                <h2>Double Burger</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, nisi! Iste nisi ut, similique maxime praesentium ad dignissimos provident suscipit laborum! Ad sequi quis iste assumenda eligendi, similique ullam quo?</p>
+                <div class="price-cart">
+                    <p>Ksh 200</p>
+                    <i class="fa fa-shopping-cart"></i>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/img/SeekPng 6.png" alt="double burger">
+                <h2>Double Burger</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, nisi! Iste nisi ut, similique maxime praesentium ad dignissimos provident suscipit laborum! Ad sequi quis iste assumenda eligendi, similique ullam quo?</p>
+                <div class="price-cart">
+                    <p>Ksh 200</p>
+                    <i class="fa fa-shopping-cart"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="caroussel">
+        <div class="caro-left">
+            <h2>The Double <div class="yellow">Decker</div></h2>
+            <p>Taste the explosion in your mouth</p>
+        </div>
+        <div class="img-right">
+            <img src="/img/double.png" alt="double burger">
+        </div>
+    </section>
+    <section class="playstore">
+        <div class="left-side">
+            <h2>Discover even more with our mobile apps</h2>
+            <img src="/img/playstore.png" alt="playstore banner">
+        </div>
+        <img src="/img/mobile1.png" alt="mobile image" width="250">
+        <img src="/img/mobile2.png" alt="mobile image" width="230">
+    </section>
+    <footer>
+        <div class="footer-links">
+            <div class="logo">
+                <img src="./img/logo.png" alt="Logo">
+                <h2 class="logoText"> <div class="yellow inline">Bur</div>ger</h2>
+            </div>
+            <div class="sitemap">
+                <a href="#">Home</a>
+                <a href="#">Service</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="newsletter">
+                <p>Subscribe to our newsletter</p>
+                <form class="mail" action="#">
+                    <input type="email" placeholder="Enter your email">
+                    <button>Subscribe</button>
+                 </form>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+          const header = document.querySelector('header');
+          header.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
     <script src="https://kit.fontawesome.com/8ff7c2670f.js" crossorigin="anonymous"></script>
 
 </body>

@@ -14,17 +14,36 @@ header {
     width: 100%;
 }
 
+header.sticky {
+    background: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  }
+
 .logo {
     display: flex;
 }
 
+.logo img {
+    height: 50px;
+    margin-top: 10px;
+}
+
 .logoText {
-    padding-top: 10px;
+    padding-top: 22px;
+    font-family: 'Lobster', cursive;
+}
+
+.yellow {
+    color: #F6B400;
+}
+
+.inline {
+    display: inline;
     font-family: 'Lobster', cursive;
 }
 
 nav {
-    padding-top: 22px;
+    padding: 22px 0;
 }
 
 nav a {
@@ -49,7 +68,7 @@ nav i {
 .banner {
     display: flex;
     justify-content: space-between;
-    background: url(/img/abstract.jpg);
+    background: url(/img/bg.png);
     background-size: cover;
     min-height: 100vh;
 }
@@ -87,7 +106,7 @@ nav i {
     display: flex;
     height: 100vh;
     align-items: center;
-    background-color: #DDE3DD;
+    background-color: #f5f5f5;
 }
 
 .service .quality {
@@ -119,3 +138,106 @@ nav i {
     color: #F6B400;
 }
 
+.menu-section .menu-header {
+    text-align: center;
+    padding: 2em;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu .card {
+    margin: 3em;
+    text-align: center;
+    border-radius: 30px;
+    padding: 0 50px;
+    max-width: 25vw;
+    box-shadow: 3px 3px 10px 8px rgb(211, 211, 211);
+}
+
+.menu .card h2 {
+    font-weight: 600;
+    padding: 4vh 0;
+}
+
+.menu .card img {
+    max-width: 15vw;
+    padding-top: 2em;
+}
+
+.menu .card p {
+    font-size: small;
+}
+
+.menu .card .price-cart {
+    display: flex;
+    justify-content: space-around;
+    padding: 4vh 0;
+}
+
+.menu .card .price-cart p {
+    font-size: medium;
+    font-weight: 600;
+    padding-top: 7px;
+}
+
+.menu .card .price-cart i {
+    background-color:  #E1EBE6;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.caroussel {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: #f5f5f5;
+
+}
+
+.caroussel .caro-left h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.caroussel .caro-left p {
+    margin-top: 2em;
+    color: #564D4D;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.caroussel .img-right img {
+    max-width: 600px;
+    padding-top: 7em;
+}
+
+.playstore {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: #f6b400;
+}
+
+.playstore .left-side {
+    padding: 80px;
+}
+
+.playstore .left-side img {
+    max-width: 30vw;
+    padding-top: 10em;
+}
+
+.playstore .left-side h2 {
+    font-weight: 600;
+    font-size: xx-large;
+    padding-right: 50%;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+}
