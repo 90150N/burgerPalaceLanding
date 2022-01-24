@@ -6,10 +6,12 @@
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
-- [Author](#author)
+
 
 
 ## Overview
+
+ Burger Palace landing page with a two column layout.
 
 ### Screenshot
 
@@ -25,7 +27,4 @@
 - CSS custom properties
 - Flexbox
 
-## Author
-
-- Website - [Sam_Kuria](https://www.kuriahport.ml)
 
