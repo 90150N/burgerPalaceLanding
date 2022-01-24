@@ -285,6 +285,7 @@ nav i {
 }
 
 .content a:hover,
+footer .socials .social-icons a i,
 .footer-links .newsletter .mail a:hover {
     background-color: #dba102;
 }
