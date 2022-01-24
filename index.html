@@ -11,19 +11,21 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="./img/logo.png" alt="Logo">
-            <h1 class="logoText"> <div class="yellow inline">Bur</div>ger</h1>
-        </div>
+        <a href="#banner">
+            <div class="logo">
+                <img src="./img/logo.png" alt="Logo">
+                <h1 class="logoText""> <div class="yellow inline">Bur</div>ger</h1>
+            </div>
+        </a>
             <nav>           
-                <a href="#">Home</a>
+                <a href="#banner">Home</a>
                 <a href="#">Offers</a>
                 <a href="#">Contact</a>
                 <a href="#">About</a>    
-                <i class="fa fa-shopping-cart fa-2x"></i>       
+                <a href="#"><i class="fa fa-shopping-cart fa-1x"></i></a>     
             </nav>
     </header>
-    <section class="banner">
+    <section id="banner" class="banner">
         <div class="content">
             <h2>Rain or shine,<br> its time to dine</h2>
             <p>We cook and deliver the tastiest burgers <br> right away to your designated location.</p>
@@ -131,7 +133,8 @@
                 <h2 class="logoText"> <div class="yellow inline">Bur</div>ger</h2>
             </div>
             <div class="sitemap">
-                <a href="#">Home</a>
+                <p>Sitemap</p>
+                <a href="#banner">Home</a>
                 <a href="#">Service</a>
                 <a href="#">About</a>
                 <a href="#">Contact</a>
@@ -140,8 +143,18 @@
                 <p>Subscribe to our newsletter</p>
                 <form class="mail" action="#">
                     <input type="email" placeholder="Enter your email">
-                    <button>Subscribe</button>
+                    <a href="#">Subscribe</a>
                  </form>
+            </div>
+        </div>
+        <div class="socials">
+            <p>Copyright 2022. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
     </footer>
