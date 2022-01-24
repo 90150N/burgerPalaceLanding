@@ -1,4 +1,4 @@
-# Burger Palace landing page with two column layout
+# Burger Palace landing page
 
 ## Table of contents
 
