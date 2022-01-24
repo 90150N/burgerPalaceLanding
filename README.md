@@ -29,4 +29,4 @@
 - Flexbox
 
 ### Author
-- LinkedIn - [Sam_Kuria](https://www.linkedin.com/in/sam-kuria-0904b01a1)
+LinkedIn - [Sam_Kuria](https://www.linkedin.com/in/sam-kuria-0904b01a1)
