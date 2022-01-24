@@ -6,6 +6,7 @@
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
+-[Author](author)
 
 
 
@@ -27,4 +28,5 @@
 - CSS custom properties
 - Flexbox
 
-
+### Author
+- LinkedIn - [Sam_Kuria](https://www.linkedin.com/in/sam-kuria-0904b01a1)
