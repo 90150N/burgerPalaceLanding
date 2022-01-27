@@ -353,6 +353,11 @@ header nav a:hover {
 @media screen and (max-width: 749px) {
     nav {
         padding: 0;
+        padding-top: 1.8em;
+    }
+
+    .logoText {
+        padding-top: 0.5em;
     }
 
     .banner {
