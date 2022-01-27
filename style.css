@@ -144,7 +144,9 @@ nav i {
 .service div i {
     color: #F6B400;
 }
-
+.menu-section{
+    text-align: center;
+}
 .menu-section .menu-header {
     text-align: center;
     padding: 2em;
@@ -230,7 +232,8 @@ nav i {
 }
 
 .playstore .left-side {
-    padding: 80px;
+    padding-left: 4em;
+    padding-right: 5em;
 }
 
 .playstore .left-side img {
@@ -242,6 +245,14 @@ nav i {
     font-weight: 600;
     font-size: xx-large;
     padding-right: 50%;
+}
+
+.playstore .playstore-img {
+    display: flex;
+}
+
+.playstore .playstore-img img{
+    max-width: 19vw;
 }
 
 .footer-links {
@@ -309,6 +320,13 @@ header nav a:hover {
     text-decoration: underline #E5611D;
     text-decoration-thickness: 8px;
 }
+
+@media screen and (max-width: 1195px) {
+    .playstore .left-side h2{
+        padding-right: 0;
+    }
+}
+
 
 @media  screen and (max-width: 1151px) {
     .menu .card {
