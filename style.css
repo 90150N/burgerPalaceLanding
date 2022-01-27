@@ -310,6 +310,28 @@ header nav a:hover {
     text-decoration-thickness: 8px;
 }
 
+@media  screen and (max-width: 1151px) {
+    .menu .card {
+        width:40vw
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .menu .card {
+        width: 100vw;
+    }
+
+    .service {
+        flex-direction: column;
+        height: auto;
+    }
+    .service .delivery {
+        margin: 7%;
+    }
+
+
+}
+
 @media screen and (max-width: 749px) {
     nav {
         padding: 0;
@@ -358,15 +380,6 @@ header nav a:hover {
         color: #F6B400;
         box-shadow: 3px 3px 10px 8px rgb(244, 247, 89);
 
-    }
-
-    .service {
-        flex-direction: column;
-        height: auto;
-    }
-    
-    .service .delivery {
-        margin: 7%;
     }
 
     .menu-section {
