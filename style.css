@@ -67,7 +67,7 @@ nav i {
 }
 
 .banner img {
-    height: 90vh;
+    max-width: 30%;
     margin-top: 5%;
     margin-right: 9vw;
 }
@@ -77,7 +77,8 @@ nav i {
     justify-content: space-between;
     background-image: linear-gradient(120deg, #fff 60%, #F6B400 10%);
     background-size: cover;
-    min-height: 100vh;
+    background-attachment: fixed;
+    max-height: 100vh;
 }
 
 .content {
@@ -143,7 +144,9 @@ nav i {
 .service div i {
     color: #F6B400;
 }
-
+.menu-section{
+    text-align: center;
+}
 .menu-section .menu-header {
     text-align: center;
     padding: 2em;
@@ -160,7 +163,6 @@ nav i {
     border-radius: 30px;
     padding: 0 50px;
     width: 25vw;
-    min-width: 200px;
     box-shadow: 3px 3px 10px 8px rgb(211, 211, 211);
 }
 
@@ -230,7 +232,8 @@ nav i {
 }
 
 .playstore .left-side {
-    padding: 80px;
+    padding-left: 4em;
+    padding-right: 5em;
 }
 
 .playstore .left-side img {
@@ -242,6 +245,14 @@ nav i {
     font-weight: 600;
     font-size: xx-large;
     padding-right: 50%;
+}
+
+.playstore .playstore-img {
+    display: flex;
+}
+
+.playstore .playstore-img img{
+    max-width: 19vw;
 }
 
 .footer-links {
@@ -308,4 +319,196 @@ footer .socials .social-icons a i {
 header nav a:hover {
     text-decoration: underline #E5611D;
     text-decoration-thickness: 8px;
+}
+
+@media screen and (max-width: 1195px) {
+    .playstore .left-side h2{
+        padding-right: 0;
+    }
+}
+
+
+@media  screen and (max-width: 1151px) {
+    .menu .card {
+        width:40vw
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .menu .card {
+        width: 100vw;
+    }
+
+    .service {
+        flex-direction: column;
+        height: auto;
+    }
+    .service .delivery {
+        margin: 7%;
+    }
+
+
+}
+
+@media screen and (max-width: 749px) {
+    nav {
+        padding: 0;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        height: 100vh;
+        justify-content: center;
+        background-image: linear-gradient(120deg, #fff 40%, #F6B400 10%);
+    }
+
+    .banner img {
+        width: 50%;
+        margin: 0;
+    }
+
+    .content {
+        margin-top: 1em;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .content h2 {
+        font-size: larger;
+        font-weight: 700;
+    }
+
+    .content p {
+        font-size: small;
+        margin-top: 1em;
+    }
+
+    .content a {
+        margin-top: 2em;
+        margin-left: 0;
+        background-color: #e0e4e2;
+        color: #F6B400;
+        font-weight: 600;
+    }
+
+    .content a:hover {
+        background-color: #e0e4e2;
+        color: #F6B400;
+        box-shadow: 3px 3px 10px 8px rgb(244, 247, 89);
+
+    }
+
+    .menu-section {
+        flex-direction: column;
+    }
+
+    .caroussel .caro-left p {
+        margin: 1em 0;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu .card {
+ 
+        width: 70vw;
+        padding: 0 20px;
+    }
+
+    .menu .card img {
+        max-width: 50vw;
+    }
+
+    .caroussel {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .caroussel .img-right img {
+        max-width: 60vw;
+        padding-top: 2em;
+
+    }
+ 
+    .playstore .left-side {
+        padding: 0 5vw;
+        text-align: center;
+    }
+
+    .playstore .left-side h2 {
+        padding-right: 0;
+    }
+
+    .playstore .left-side img {
+        max-width: 90vw;
+        padding-top: 5em;
+
+    }
+
+    .playstore .playstore-img {
+        display: none;
+
+    }
+
+    .playstore .playstore-img  img{
+        max-width: 30vw;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        padding-top: 3vh;
+        padding-left: 3vw;
+    }
+
+    .footer-links .logo {
+        padding-left: 2vw;
+    }
+
+    .footer-links .sitemap {
+        padding-top: 3vh;
+        padding-left: 3vw;
+    }
+
+    .footer-links .newsletter {
+        padding-top: 3vh;
+        padding-left: 3vw;
+    }
+
+
+    .footer-links .newsletter p {
+        text-align: center;
+        padding-bottom: 1vh;
+        font-weight: 600;
+        font-size: large;
+    }
+
+    .footer-links .newsletter .mail input{
+        width: 80vw;
+        margin-left: 0;
+    }
+
+    .footer-links .newsletter .mail a{
+        display: block;
+        width: 80vw;
+        margin-top: 2vh;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 643px) {
+    footer .socials {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 2em;
+    }
+
+    footer .socials .social-icons {
+        margin-left: 0;
+        margin-bottom: 1%;
+    }
 }
