@@ -291,7 +291,7 @@ footer .socials .social-icons a i:hover,
 }
 
 .footer-links .newsletter .mail input {
-  border: 1px solid #000;
+  border: 1px solid rgb(20, 20, 20);
   padding: 6px;
   border-radius: 5px;
 }
