@@ -12,7 +12,7 @@
 
 ## Overview
 
- Burger Palace landing page with a two column layout.
+ This landing page represents the Burger Palace brand through a well-designed two-column layout that showcases the restaurant's unique offerings. The page has been skillfully built using HTML, CSS, and JavaScript technologies, resulting in a highly functional and aesthetically pleasing interface. 
 
 ### Screenshot
 
